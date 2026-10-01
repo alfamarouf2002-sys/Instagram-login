@@ -1,0 +1,161 @@
+*{
+  box-sizing: border-box;
+}
+
+.login-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  height: 120vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:rgb(250, 250, 250);
+}
+
+  .instagram-logo{
+    width: 250px;
+    height: 130px;
+    margin: 10px 0;
+  }
+
+  .downloadplayapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .apple-logo,
+  .play-logo{
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin-top: -20px;
+    cursor: pointer;
+  }
+
+  .fb-logo{
+    width: 15px;
+    height: 15px;
+  }
+
+  .box-1{
+    height: 450px;
+    width: 330px;
+    border: 2px solid rgb(219, 219, 219);
+    background-color: rgb(255, 255, 255);
+
+
+  }
+  .box-2{
+    height: 55px;
+    width: 350px;
+    border: 2px solid rgb(219, 219, 219);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0;
+    cursor: pointer;
+
+  }
+  
+  input{
+    background-color: rgb(250, 250, 250);
+    color: #262626;
+    font-weight: 400;
+    line-height: 10px;
+    font-size: 13px;
+    padding: 9px 0 6px 8px;
+    height: 30px;
+    width: 280px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    outline: none;
+    margin: 10px 0;
+  }
+
+  input::placeholder{
+    color: #737373;
+    opacity: 1;
+  }
+
+  input:focus{
+    border-color: #a8a8a8;
+    box-shadow: 0 0 0 1px #a8a8a8;
+  }
+
+  .login-button{
+    border-radius: 4px;
+    background-color: #0095f6;
+    color: rgb(255, 255, 255);
+    padding: 5px 9px;
+    border: none;
+    width: 268px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+
+  .lines-box{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10px;
+    font-size: 13px;
+    color: #8e8e8e;
+    font-weight: bold;
+  }
+
+  .line-1{
+    width: 106px;
+    height: 1px;
+    background-color: white;
+    margin-right: 5px;
+  }
+
+  .line-2{
+    width: 106px;
+    height: 1px;
+    background-color: white;
+    margin-right: 10px;
+  }
+  
+.fb-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.fb-login-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.fb-link{
+  color: #385185;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  
+}
+
+
+.forgotten-passwd{
+  color: #385185;
+  font-size: 13px;
+  cursor: pointer;
+
+}
