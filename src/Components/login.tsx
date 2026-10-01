@@ -2,6 +2,7 @@ import instaImage from "../assets/insta.png";
 import appleImage from "../assets/apple.png";
 import facebookImage from "../assets/facebook.png";
 import playstoreImage from "../assets/playstore.png";
+import instalogoImage from "../assets/instalogo.png";
 
 const Login = () => {
     return (
